@@ -52,3 +52,59 @@
 
     Command:- cd <Directory Name>
 ![alt text](image-8.png)
+
+9:- To crete directory 
+
+    Command:- mkdir <directory-name>
+
+![alt text](image-9.png)
+
+10:- Create File using "Touch" Command
+
+    Command:- touch <file-name>
+
+![alt text](image-10.png)
+
+11:- Copying file from one directory to other
+    
+    Command:- cp <file-name> <diretory-name>
+
+![alt text](image-11.png)
+
+12:- Moving file from one location to another location
+
+    Command:- mv <file-name> <directory-name>
+
+![alt text](image-12.png)
+
+13:- Connecting to Server with SSH
+
+    Command:- ssh <server_user_name>@IP-Address
+
+![alt text](image-13.png)
+
+![alt text](image-14.png)
+
+14:- Checking hostname
+
+    Command:- hostname
+
+![alt text](image-15.png)
+
+15:- To Check basic information about Operating sytem and hardware
+
+        Command:- uname -a
+
+![alt text](image-16.png)
+
+16:- To check the particular text in a file:-
+
+    Command:- cat <filename> | grep "text-name"  
+
+![alt text](image-17.png)
+
+    Grep Command is a Case-Sensitive Command. To remove case-sensitiveness from text we have to use "-i" paramerter with "grep" command
+
+    Command:- cat <filename> | grep -i "text-name"  
+
+![alt text](image-18.png)
