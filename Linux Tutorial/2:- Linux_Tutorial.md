@@ -6,7 +6,9 @@
 
 2:- Command to clear screen
     Command:- clear
-    Before Clear Command
-    ![alt text](image-1.png)
-    After Clear Command
-    ![alt text](image-2.png)
+
+        Before Clear Command
+![alt text](image-1.png)
+        After Clear Command
+
+![alt text](image-2.png)
