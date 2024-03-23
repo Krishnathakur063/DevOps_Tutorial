@@ -118,3 +118,57 @@
     File after coppied from main system to server
 
 ![alt text](image-20.png)
+
+18:- Reading file line by line or page by page when content in file is very huge.
+
+    Command:- less <file-name>
+
+![alt text](image-22.png)
+
+![alt text](image-23.png)
+
+19:- Reading First Few Lines
+
+    Command:- head <file-name>
+
+![alt text](image-24.png)
+
+    Reading First Selected Number of lines like 5 or 10
+
+    Command:- Command:- head -n 5 /etc/passwd
+
+![alt text](image-26.png)
+
+    Reading First Selected Bytes of Data from file.
+
+    Command:- head -c 100 /etc/passwd
+
+![alt text](image-27.png)  
+
+20:- Reading Last Few Lines
+
+    Command:- tail <file-name>
+
+![alt text](image-28.png)
+
+    Reading Last Selected Number of lines like 5 or 10
+
+    Command:- tail -n 5 /etc/passwd
+
+![alt text](image-29.png)
+
+    Reading Last Selected Bytes of Data from file.
+
+    Command:- tail -c 100 /etc/passwd
+
+![alt text](image-30.png)
+
+21:- Checking IP Address details of system
+
+    Command:- ifconfig
+
+![alt text](image-31.png)
+
+
+
+
