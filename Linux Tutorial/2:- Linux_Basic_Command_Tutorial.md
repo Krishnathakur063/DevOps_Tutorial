@@ -108,3 +108,13 @@
     Command:- cat <filename> | grep -i "text-name"  
 
 ![alt text](image-18.png)
+
+17:- Copy file from main sysem to server via SSH
+
+    Command:- scp <filename> <user-name>@IP-Address:/<directory-name-with-path>
+
+![alt text](image-19.png)
+
+    File after coppied from main system to server
+
+![alt text](image-20.png)
