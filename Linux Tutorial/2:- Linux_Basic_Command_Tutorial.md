@@ -203,3 +203,43 @@
 
 ![alt text](image-40.png)
 
+26:- Checking on which file user is currently working:-
+
+        Command:- lsof -u <user-name>
+
+![alt text](image-50.png)
+
+![alt text](image-49.png)
+
+27:- Adding the user into sudoer list
+        
+![alt text](image-51.png)
+
+   1:- Open the 'visudo' file and type the below line
+
+         <user>  ALL=(ALL:ALL) ALL
+        
+![alt text](image-52.png)
+
+    2:- But is requiring for the password from the user when he is loggin but if you want that when user login to as a root user it is not asking for the password then you have to type 'NOPASSWD:' before the lass 'ALL'
+
+        <user>  ALL=(ALL:ALL) ALL
+
+![alt text](image-53.png)
+
+   3:- But when we making changes into sudoers file if we made any wrong changes then sudo will not work and making it correct is not easy. So it is advisable that you have to create file for your own group in '/etc/sudoers.d' directory by any name and give them permission you want to gave.
+
+   ![alt text](image-56.png)
+
+   ![alt text](image-54.png)
+
+4:- we can also add group into '/etc/sudoers.d' directory so we can assign sudo the permission to the whole group
+
+        %<user>  ALL=(ALL:ALL) ALL
+
+
+![alt text](image-58.png)
+
+After Adding the Group into the file
+
+![alt text](image-59.png)
