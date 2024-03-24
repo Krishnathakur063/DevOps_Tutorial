@@ -227,19 +227,28 @@
 
 ![alt text](image-53.png)
 
-   3:- But when we making changes into sudoers file if we made any wrong changes then sudo will not work and making it correct is not easy. So it is advisable that you have to create file for your own group in '/etc/sudoers.d' directory by any name and give them permission you want to gave.
+        3:- But when we making changes into sudoers file if we made any wrong changes then sudo will not work and making it correct is not easy. So it is advisable that you have to create file for your own group in '/etc/sudoers.d' directory by any name and give them permission you want to gave.
 
    ![alt text](image-56.png)
 
    ![alt text](image-54.png)
 
-4:- we can also add group into '/etc/sudoers.d' directory so we can assign sudo the permission to the whole group
+        4:- we can also add group into '/etc/sudoers.d' directory so we can assign sudo the permission to the whole group
 
-        %<user>  ALL=(ALL:ALL) ALL
+                %<user>  ALL=(ALL:ALL) ALL
 
 
 ![alt text](image-58.png)
 
-After Adding the Group into the file
+        After Adding the Group into the file
 
 ![alt text](image-59.png)
+
+28:- For removing the package we use:- 
+
+        Command:- apt remove <package-name>
+
+     But the above command does not remove the configuration. So to remove configuration use below command:-
+
+        Command:- apt purge <package-name>
+
