@@ -68,8 +68,15 @@
 11:- Copying file from one directory to other
     
     Command:- cp <file-name> <diretory-name>
-
+              
 ![alt text](image-11.png)
+
+    If We want to copy the directory then we have to use '-r' parameter with the command.
+        Command:- cp -r <coppied-dir-name> <directory-name-where-we-have-to-copy>
+
+
+![alt text](image-35.png)
+
 
 12:- Moving file from one location to another location
 
@@ -168,5 +175,21 @@
     Command:- ifconfig
 
 ![alt text](image-31.png)
+
+22:- Changing the Hostname:- 
+
+![alt text](image-36.png)
+
+23:- Removing Directory:-
+
+![alt text](image-37.png)
+
+24:- Creating a linkfile:-
+
+![alt text](image-38.png)
+
+24:- Deleting the Linkfile and Aliving a DeadLink
+
+![alt text](image-39.png)
 
 
